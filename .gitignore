@@ -8,4 +8,5 @@ pkg/
 .rbenv-version
 *.swp
 *.swo
+tmp/
 
