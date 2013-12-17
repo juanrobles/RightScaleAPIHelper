@@ -3,3 +3,9 @@
 *.un~
 
 pkg/
+
+.DS_Store
+.rbenv-version
+*.swp
+*.swo
+
