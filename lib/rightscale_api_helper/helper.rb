@@ -76,7 +76,6 @@ module RightScaleAPIHelper
         req.set_form_data(values)
 
         resp = @conn.request(req)
-        
       rescue
         raise("Get query failed.\n Query string is #{request_value}#{@formatting}")
       end
